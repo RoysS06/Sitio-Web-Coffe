@@ -441,15 +441,23 @@ body{
     }
 }
 
+
 @media (max-width: 500px){
 
     .header-content{
         padding: 100px 25px;
     }
 
+    .header-content h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+
     /* MAIN - SECCIÓN 1 */
     
     .coffee-content h2{
+        font-size: 40px;
+        line-height: 50px;
         padding: 0 25px;
     }
 
@@ -464,8 +472,11 @@ body{
     /* MAIN - SECCIÓN 2 */
 
     .services-content h2{
+        font-size: 40px;
+        line-height: 50px;
         padding: 0 35px;
     }
+    
 
     .services-content p{
         padding: 0 35px;
@@ -480,12 +491,27 @@ body{
     /* MAIN - SECCIÓN 3 Y 4 */
     .general-1{
         width: 100%;
-        padding: 30px;
+        padding: 50px 30px;
         text-align: center;
     }
 
     .general-2, .general-3{
         display: none;
     }
+
+    .general h2{
+        font-size: 40px;
+        line-height: 50px;
+    }
     
+    /* MAIN - SECCIÓN 5 */
+
+    .blog h2{
+        font-size: 40x;
+        line-height: 50px;
+    }
+
+    .blog-content .blog-1 p{
+        padding: 0 45px;
+    }
 }
